@@ -1,0 +1,118 @@
+.field_type-facebookfeed .hide {
+  /*display: none;*/
+}
+.field_type-facebookfeed .hide.show {
+
+}
+
+.field_type-facebookfeed .input-group {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  display: table;
+  border-collapse: collapse;
+  border: 0 none;
+}
+.field_type-facebookfeed .input-group-addon {
+  padding: 0 5px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #333;
+  text-align: center;
+  background-color: #f6f6f6;
+  border: 1px solid #DDD;
+  border-radius: 2px 0 0 2px;
+  min-height: 30px;
+  border-right:0 none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.field_type-facebookfeed .input-group-addon + input{
+  border-left: 0 none;
+  margin: 0;
+  padding: 4px 5px;
+  line-height: 14px;
+  min-height: 30px;
+}
+.field_type-facebookfeed .input-group-addon,
+.field_type-facebookfeed .input-group-btn {
+  width: 1%;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.field_type-facebookfeed .input-group-addon,
+.field_type-facebookfeed .input-group-btn,
+.field_type-facebookfeed .input-group input {
+  display: table-cell
+}
+
+
+
+.field_type-facebookfeed .acf-gallery .thumbnail {
+  cursor: default;
+}
+.field_type-facebookfeed .acf-gallery .thumbnail .inner{
+  display: block;
+  cursor: default;
+}
+.field_type-facebookfeed .acf-gallery .info{
+  position: absolute;
+  left:5px;
+  bottom: 5px;
+  right:5px;
+  opacity: 0;
+  background-color: #fff;
+}
+.field_type-facebookfeed .acf-gallery .thumbnail:hover .info{
+  opacity: 0.75;
+}
+.field_type-facebookfeed .acf-gallery .thumbnail p{
+  word-wrap: normal;
+  margin: 0 auto 5px auto;
+
+  color: #999;
+  font-size: 12px;
+  line-height: 15px;
+
+}
+
+.field_type-facebookfeed pre {
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre-wrap;
+  background-color: #fff;
+  border-radius: 0;
+}
+.field_type-facebookfeed label,
+.field_type-facebookfeed .sub-field-instructions {
+  float:left;
+  clear:both;
+  width:auto;
+  display: inline-block;
+
+}
+
+.field_type-facebookfeed .field ul.acf-fc-layout-controlls {
+  float:right;
+  text-align: right;
+  position: relative;
+  right:auto;
+  top:auto;
+}
+.field_type-facebookfeed .field ul.acf-fc-layout-controlls li {
+  margin: 0 0 0 5px;
+}
+.field_type-facebookfeed .acf-button-add,
+.field_type-facebookfeed .acf-button-remove {
+/*  background: #FFF;
+  color: #AAA;
+  line-height: 1;
+  font-size: 16px;
+  padding-bottom: 2px;
+  height: auto;
+  text-align: center;*/
+}
